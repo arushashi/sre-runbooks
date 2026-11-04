@@ -1,0 +1,80 @@
+{
+    "repo":  "sre-runbooks",
+    "title":  "SRE Runbooks",
+    "tagline":  "Runbooks for common production failures, plus incident severity levels and a blameless postmortem template.",
+    "groups":  [
+                   {
+                       "name":  "Overview",
+                       "items":  [
+                                     {
+                                         "path":  "README.md",
+                                         "title":  "Overview"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Incident Management",
+                       "items":  [
+                                     {
+                                         "path":  "incident-management/postmortem-template.md",
+                                         "title":  "Postmortem: \u003cshort title\u003e"
+                                     },
+                                     {
+                                         "path":  "incident-management/severity-levels.md",
+                                         "title":  "Incident severity levels"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "Runbooks",
+                       "items":  [
+                                     {
+                                         "path":  "runbooks/disk-full.md",
+                                         "title":  "Runbook: Disk space full"
+                                     },
+                                     {
+                                         "path":  "runbooks/high-error-rate.md",
+                                         "title":  "Runbook: High error rate (5xx)"
+                                     },
+                                     {
+                                         "path":  "runbooks/high-latency.md",
+                                         "title":  "Runbook: High latency"
+                                     },
+                                     {
+                                         "path":  "runbooks/pod-crashloop.md",
+                                         "title":  "Runbook: Pod CrashLoopBackOff"
+                                     }
+                                 ]
+                   }
+               ],
+    "pages":  [
+                  {
+                      "path":  "README.md",
+                      "title":  "Overview"
+                  },
+                  {
+                      "path":  "incident-management/postmortem-template.md",
+                      "title":  "Postmortem: \u003cshort title\u003e"
+                  },
+                  {
+                      "path":  "incident-management/severity-levels.md",
+                      "title":  "Incident severity levels"
+                  },
+                  {
+                      "path":  "runbooks/disk-full.md",
+                      "title":  "Runbook: Disk space full"
+                  },
+                  {
+                      "path":  "runbooks/high-error-rate.md",
+                      "title":  "Runbook: High error rate (5xx)"
+                  },
+                  {
+                      "path":  "runbooks/high-latency.md",
+                      "title":  "Runbook: High latency"
+                  },
+                  {
+                      "path":  "runbooks/pod-crashloop.md",
+                      "title":  "Runbook: Pod CrashLoopBackOff"
+                  }
+              ]
+}
